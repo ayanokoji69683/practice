@@ -11,8 +11,8 @@ st.write("Enter patient details to check risk of Diabetes using Machine Learning
 
 # Inputs
 preg = st.number_input("Number of Pregnancies", 0, 20, 1)
-glucose = st.number_input("Glucose Level", 0, 200, 100)
-bp = st.number_input("Blood Pressure", 0, 150, 70)
+glucose = st.number_input("Glucose Level", 0, 700, 100)
+bp = st.number_input("Blood Pressure", 0, 250, 70)
 skin = st.number_input("Skin Thickness", 0, 100, 20)
 insulin = st.number_input("Insulin Level", 0, 900, 80)
 bmi = st.number_input("BMI", 0.0, 70.0, 25.0)
